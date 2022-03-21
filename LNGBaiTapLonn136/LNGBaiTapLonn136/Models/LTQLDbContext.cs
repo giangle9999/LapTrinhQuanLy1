@@ -18,6 +18,7 @@ namespace LNGBaiTapLonn136.Models
         public virtual DbSet<NhapKho> NhapKhos { get; set; }
         public virtual DbSet<TonKho> TonKhos { get; set; }
         public virtual DbSet<XuatKho> XuatKhos { get; set; }
+        public virtual DbSet<Account> Accounts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
