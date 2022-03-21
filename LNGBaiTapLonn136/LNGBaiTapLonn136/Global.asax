@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="LNGBaiTapLonn136.MvcApplication" Language="VB" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="LNGBaiTapLonn136.MvcApplication" Language="C#" %>
