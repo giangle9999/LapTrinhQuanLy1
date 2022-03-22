@@ -145,12 +145,17 @@
     <Compile Include="Migrations\202203211505483_Create_Table_2.Designer.cs">
       <DependentUpon>202203211505483_Create_Table_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203221306002_Create_Table_3.cs" />
+    <Compile Include="Migrations\202203221306002_Create_Table_3.Designer.cs">
+      <DependentUpon>202203221306002_Create_Table_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\DangNhap.cs" />
     <Compile Include="Models\HangHoa.cs" />
     <Compile Include="Models\LTQLDbContext.cs" />
     <Compile Include="Models\NhapKho.cs" />
+    <Compile Include="Models\StringProcess.cs" />
     <Compile Include="Models\TonKho.cs" />
     <Compile Include="Models\XuatKho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -236,6 +241,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203211505483_Create_Table_2.resx">
       <DependentUpon>202203211505483_Create_Table_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203221306002_Create_Table_3.resx">
+      <DependentUpon>202203221306002_Create_Table_3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
