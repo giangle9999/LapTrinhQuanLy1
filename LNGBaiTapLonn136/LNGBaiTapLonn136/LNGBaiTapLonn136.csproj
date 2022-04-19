@@ -149,6 +149,10 @@
     <Compile Include="Migrations\202203221306002_Create_Table_3.Designer.cs">
       <DependentUpon>202203221306002_Create_Table_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203230325477_Create_Table_4.cs" />
+    <Compile Include="Migrations\202203230325477_Create_Table_4.Designer.cs">
+      <DependentUpon>202203230325477_Create_Table_4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\DangNhap.cs" />
@@ -244,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203221306002_Create_Table_3.resx">
       <DependentUpon>202203221306002_Create_Table_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203230325477_Create_Table_4.resx">
+      <DependentUpon>202203230325477_Create_Table_4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

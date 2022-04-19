@@ -13,6 +13,7 @@ namespace LNGBaiTapLonn136.Controllers
     public class NhapKhosController : Controller
     {
         private LTQLDbContext db = new LTQLDbContext();
+        private StringProcess aukey = new StringProcess();
 
         // GET: NhapKhos
         public ActionResult Index()
@@ -38,6 +39,17 @@ namespace LNGBaiTapLonn136.Controllers
         // GET: NhapKhos/Create
         public ActionResult Create()
         {
+            if (db.NhapKhos.Count() == 0)
+            {
+                ViewBag.NewMaHang = "MH01";
+            }
+            else
+            {
+                var MaHang = db.NhapKhos.OrderByDescending(m => m.MaHang).FirstOrDefault().MaHang;
+                var newMaHang = aukey.GenerateKey("MH", MaHang);
+                
+                ViewBag.NewmaHang = newMaHang;
+            }
             return View();
         }
 

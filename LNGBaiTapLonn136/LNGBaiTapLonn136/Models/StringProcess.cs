@@ -8,7 +8,7 @@ namespace LNGBaiTapLonn136.Models
 {
     public class StringProcess
     {
-        public string AutoGenerateCode(string text, string ID)
+        public string GenerateKey(string text, string ID)
         {
             string strKey = "";
             string numPart = "", strPart = "", strPhanSo = "";

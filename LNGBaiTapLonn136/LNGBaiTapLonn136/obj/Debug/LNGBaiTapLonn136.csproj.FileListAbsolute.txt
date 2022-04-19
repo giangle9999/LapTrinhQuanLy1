@@ -85,3 +85,4 @@ C:\Users\Giang\source\repos\LapTrinhQuanLy1\LNGBaiTapLonn136\LNGBaiTapLonn136\ob
 C:\Users\Giang\source\repos\LapTrinhQuanLy1\LNGBaiTapLonn136\LNGBaiTapLonn136\obj\Debug\LNGBaiTapLonn136.csproj.GenerateResource.cache
 C:\Users\Giang\source\repos\LapTrinhQuanLy1\LNGBaiTapLonn136\LNGBaiTapLonn136\obj\Debug\LNGBaiTapLonn136.Migrations.Create_Table_2.resources
 C:\Users\Giang\source\repos\LapTrinhQuanLy1\LNGBaiTapLonn136\LNGBaiTapLonn136\obj\Debug\LNGBaiTapLonn136.Migrations.Create_Table_3.resources
+C:\Users\Giang\source\repos\LapTrinhQuanLy1\LNGBaiTapLonn136\LNGBaiTapLonn136\obj\Debug\LNGBaiTapLonn136.Migrations.Create_Table_4.resources

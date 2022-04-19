@@ -20,6 +20,7 @@
             @Html.LabelFor(model => model.MaHang, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.MaHang, new { htmlAttributes = new { @class = "form-control" } })
+                
                 @Html.ValidationMessageFor(model => model.MaHang, "", new { @class = "text-danger" })
             </div>
         </div>
